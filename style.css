@@ -1,0 +1,175 @@
+/* ===========================================================
+   ESTILO.CSS
+   Exemplo simples de CSS com comentários para aprendizado.
+   =========================================================== */
+
+
+/* -----------------------------------------------------------
+   body
+   Aplica estilos para toda a página.
+   ----------------------------------------------------------- */
+body{
+
+    /* Define a fonte do texto */
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* Cor de fundo da página */
+    background-color: #f4f8f4;
+
+    /* Cor padrão do texto */
+    color: #333333;
+
+    /* Espaço entre o conteúdo e as bordas da página */
+    margin: 30px;
+
+    /* Centraliza os textos */
+    text-align: center;
+}
+
+
+/* -----------------------------------------------------------
+   h1
+   Estiliza o título principal.
+   ----------------------------------------------------------- */
+h1{
+
+    /* Cor do texto */
+    color: #1b5e20;
+
+    /* Aumenta o tamanho da fonte */
+    font-size: 42px;
+
+    /* Coloca uma linha embaixo do título */
+    border-bottom: 3px solid #4caf50;
+
+    /* Espaço abaixo da borda */
+    padding-bottom: 10px;
+}
+
+
+/* -----------------------------------------------------------
+   h2
+   Estiliza os subtítulos.
+   ----------------------------------------------------------- */
+h2{
+
+    /* Cor do subtítulo */
+    color: #2e7d32;
+
+    /* Espaço acima do subtítulo */
+    margin-top: 30px;
+}
+
+
+/* -----------------------------------------------------------
+   p
+   Estiliza os parágrafos.
+   ----------------------------------------------------------- */
+p{
+
+    /* Largura máxima do texto */
+    width: 80%;
+
+    /* Centraliza o bloco do parágrafo */
+    margin: auto;
+
+    /* Alinha o texto dos dois lados */
+    text-align: justify;
+
+    /* Espaço entre as linhas */
+    line-height: 1.8;
+
+    /* Tamanho da letra */
+    font-size: 18px;
+}
+
+
+/* -----------------------------------------------------------
+   ul
+   Estiliza a lista.
+   ----------------------------------------------------------- */
+ul{
+
+    /* Remove os marcadores padrão */
+    list-style: none;
+
+    /* Remove o recuo da lista */
+    padding: 0;
+}
+
+
+/* -----------------------------------------------------------
+   li
+   Estiliza cada item da lista.
+   ----------------------------------------------------------- */
+li{
+
+    /* Cor de fundo */
+    background-color: #dcedc8;
+
+    /* Espaço interno */
+    padding: 12px;
+
+    /* Espaço entre um item e outro */
+    margin: 10px auto;
+
+    /* Largura dos itens */
+    width: 60%;
+
+    /* Borda arredondada */
+    border-radius: 10px;
+
+    /* Deixa o texto em negrito */
+    font-weight: bold;
+}
+
+
+/* -----------------------------------------------------------
+   li:hover
+   Muda a aparência quando o mouse passa sobre o item.
+   ----------------------------------------------------------- */
+li:hover{
+
+    /* Nova cor de fundo */
+    background-color: #a5d6a7;
+
+    /* Mostra que o elemento pode ser clicado */
+    cursor: pointer;
+}
+
+
+/* -----------------------------------------------------------
+   img
+   Estiliza a imagem.
+   ----------------------------------------------------------- */
+img{
+
+    /* Largura máxima da imagem */
+    width: 500px;
+
+    /* Nunca ultrapassa o tamanho da tela */
+    max-width: 100%;
+
+    /* Bordas arredondadas */
+    border-radius: 15px;
+
+    /* Sombra ao redor da imagem */
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+
+    /* Espaço acima da imagem */
+    margin-top: 20px;
+}
+
+
+/* -----------------------------------------------------------
+   img:hover
+   Efeito quando o mouse passa sobre a imagem.
+   ----------------------------------------------------------- */
+img:hover{
+
+    /* Aumenta levemente a imagem */
+    transform: scale(1.05);
+
+    /* Faz a animação ficar suave */
+    transition: 0.5s;
+}
